@@ -1,0 +1,161 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+```html
+<!-- `display: block` sprite -->
+<div class="icon-home"></div>
+
+<!-- `display: inline-block` sprite -->
+<img class="icon-home" />
+```
+*/
+.icon-airplane {
+  background-image: url(../images/sprite.png);
+  background-position: -273px -320px;
+  width: 16px;
+  height: 16px;
+}
+.icon-ajax-loader {
+  background-image: url(../images/sprite.png);
+  background-position: -248px -338px;
+  width: 32px;
+  height: 32px;
+}
+.icon-Google {
+  background-image: url(../images/sprite.png);
+  background-position: -256px 0px;
+  width: 256px;
+  height: 256px;
+}
+.icon-Google64 {
+  background-image: url(../images/sprite.png);
+  background-position: -321px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-Twitter 1 {
+  background-image: url(../images/sprite.png);
+  background-position: 0px 0px;
+  width: 256px;
+  height: 256px;
+}
+.icon-Yandex {
+  background-image: url(../images/sprite.png);
+  background-position: -257px -256px;
+  width: 64px;
+  height: 64px;
+}
+.icon-hd-green-24 {
+  background-image: url(../images/sprite.png);
+  background-position: -394px -338px;
+  width: 24px;
+  height: 24px;
+}
+.icon-layers-2x {
+  background-image: url(../images/sprite.png);
+  background-position: -385px -256px;
+  width: 52px;
+  height: 52px;
+}
+.icon-layers {
+  background-image: url(../images/sprite.png);
+  background-position: -344px -338px;
+  width: 26px;
+  height: 26px;
+}
+.icon-layers1 {
+  background-image: url(../images/sprite.png);
+  background-position: -127px -384px;
+  width: 48px;
+  height: 48px;
+}
+.icon-layers2 {
+  background-image: url(../images/sprite.png);
+  background-position: -223px -384px;
+  width: 48px;
+  height: 48px;
+}
+.icon-logout {
+  background-image: url(../images/sprite.png);
+  background-position: -437px -256px;
+  width: 48px;
+  height: 48px;
+}
+.icon-maps {
+  background-image: url(../images/sprite.png);
+  background-position: -79px -384px;
+  width: 48px;
+  height: 48px;
+}
+.icon-marina_16 {
+  background-image: url(../images/sprite.png);
+  background-position: -257px -320px;
+  width: 16px;
+  height: 16px;
+}
+.icon-marina_24 {
+  background-image: url(../images/sprite.png);
+  background-position: -370px -338px;
+  width: 24px;
+  height: 24px;
+}
+.icon-marina_32 {
+  background-image: url(../images/sprite.png);
+  background-position: -312px -338px;
+  width: 32px;
+  height: 32px;
+}
+.icon-marker-icon-2x {
+  background-image: url(../images/sprite.png);
+  background-position: -207px -256px;
+  width: 50px;
+  height: 82px;
+}
+.icon-marker-icon {
+  background-image: url(../images/sprite.png);
+  background-position: -485px -256px;
+  width: 25px;
+  height: 41px;
+}
+.icon-marker-shadow {
+  background-image: url(../images/sprite.png);
+  background-position: -207px -338px;
+  width: 41px;
+  height: 41px;
+}
+.icon-meteo {
+  background-image: url(../images/sprite.png);
+  background-position: -271px -384px;
+  width: 48px;
+  height: 48px;
+}
+.icon-netsworks-panel {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -256px;
+  width: 32px;
+  height: 945px;
+}
+.icon-vp {
+  background-image: url(../images/sprite.png);
+  background-position: -79px -256px;
+  width: 128px;
+  height: 128px;
+}
+.icon-vp1 {
+  background-image: url(../images/sprite.png);
+  background-position: -175px -384px;
+  width: 48px;
+  height: 48px;
+}
+.icon-wait {
+  background-image: url(../images/sprite.png);
+  background-position: -280px -338px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wind-scale {
+  background-image: url(../images/sprite.png);
+  background-position: -32px -256px;
+  width: 47px;
+  height: 415px;
+}

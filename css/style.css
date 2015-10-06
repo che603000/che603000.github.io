@@ -1,0 +1,218 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    /*overflow: hidden;*/
+}
+/*для затенения диалогового окна*/
+div.modal-backdrop {
+    z-index: 1900;
+}
+div.modal {
+    z-index: 2000;
+}
+div.modal-dialog{
+    margin-top: 100px;
+}
+.map-loading-mask {
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-color: #7f7f7f;
+}
+
+.map-loading-mask-message {
+    width: 180px;
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    /*position: absolute;*/
+    /*top:30%;*/
+    padding: 8px;
+
+    /*margin: 3px;*/
+    text-align: center;
+    background-color: #FFF;
+    border: solid 1px gray;
+    border-radius: 5px;
+}
+
+/*LEAFLET EXT*/
+
+.leaflet-center {
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.leaflet-right .map-menu-button {
+    float: none;
+}
+
+.leaflet-left .map-menu-button {
+    float: none;
+}
+
+.leaflet-center .map-menu-button {
+    float: none;
+}
+
+.leaflet-center .leaflet-control {
+    margin-left: 5px;
+}
+
+.leaflet-right .leaflet-control {
+    margin-right: 5px;
+}
+
+.leaflet-left .leaflet-control {
+    margin-left: 5px;
+}
+
+/*BOOTSTRAP EXT*/
+div.popover {
+    max-width: 900px;
+}
+
+/*CONTAINER MAP AND FOOTER*/
+div#map {
+    width: 100%;
+    height: 100%;
+}
+
+.map-footer {
+    width: 100%;
+}
+
+.map-footer-resize-vertical {
+    cursor: n-resize;
+    width: 100%;
+    height: 4px;
+    background-color: #AAA;
+    float: left;
+}
+.map-wind-scale{
+    background-color: #EEE;
+    border: solid 1px gray;
+    border-radius: 5px;
+    -webkit-user-select: none;
+}
+/*MENU MAP*/
+.map-menu-button {
+    width: 50px;
+    height: 50px;
+    background-color: #EEE;
+    border: solid 1px gray;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    -webkit-user-select: none;
+}
+
+.map-menu-button[aria-describedby] {
+    background-color: #FFF;
+}
+
+.map-menu-button-icon {
+    margin: auto;
+    /*margin-top: 3px;*/
+    /*border: solid 1px red;*/
+}
+
+/*ROUTE PLAN*/
+.map-route-line-drag {
+    stroke-dasharray: 5 5;
+    stroke-width: 2px;
+    stroke: red;
+
+}
+
+.map-route-line {
+    stroke-width: 5px;
+    stroke: red;
+
+}
+
+.map-route-icon {
+    border-radius: 50%;
+    border: solid 1px red;
+    background-color: #ffffff;
+}
+
+/*иконка направления и растояния маршрута на карте*/
+.map-direct-icon {
+    border: solid 1px red;
+    /*padding: 1px;*/
+    font-size: 10px;
+    border-radius: 4px;
+    background-color: #FEE;
+    color: #333;
+    /*font-family: Tahoma;*/
+    -webkit-transform-origin: 0;
+    -moz-transform-origin: 0;
+    -ms-transform-origin: 0;
+    -o-transform-origin: 0;
+    transform-origin: 0;
+    /*text-align: right;*/
+    line-height: 8px;
+    padding-left: 8px;
+    z-index: -90;
+    padding-top: 1px;
+}
+
+.map-direct-icon-180 {
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+    text-align: left;
+    padding-left: 2px;
+
+}
+
+.map-direct-icon-hide {
+    display: none;
+}
+
+/*ВП РФ*/
+div.checkbox > label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.map-air-space-limited {
+    color: #999;
+    text-decoration: line-through;
+}
+
+.map-popup {
+
+}
+
+.map-see-icon-marine {
+    background-color: #FFF;
+    border-radius: 50%;
+    /*border: solid 2px #FFF;*/
+}
+
+.map-message-bottom-right {
+    position: absolute;
+    max-width: 400px;
+    min-width: 300px;
+    bottom: 0px;
+    right: 0px;
+    margin: 5px;
+    /*border: solid 1px #000000;*/
+    z-index: 9999999;
+}
